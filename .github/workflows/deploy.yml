@@ -18,7 +18,7 @@ jobs:
           POSTGRES_DB: students
           POSTGRES_PASSWORD: postgres
           NODE_ENV: prod
-          POSTGRES_USER: postgres://postgres:postgres@postgres_projeto_db:5432/students
+          DATABASE_URL: postgres://postgres:postgres@postgres_projeto_db:5432/students
           directory: back-end/
           filename: .env
           fail_on_empty: true
